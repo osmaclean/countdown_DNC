@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(48,48,48);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f5f5f5;
+    padding: .625rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 90%;
+}
+
+header img#img {
+    width: 4.375rem;
+    height: 4.375rem;
+    margin-top: 1.28rem;
+}
+
+h1#title {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+
+}
+
+section#mainContent {
+    gap: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: .625rem;
+    margin-top: .625rem;
+    width: 95%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+    -moz-box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+    box-shadow: 7px 7px 5px -3px rgba(255,255,255,0.47);
+}
+
+section#mainContent div.box.p {
+    margin-bottom: 20px;
+}
+
+
+section#mainContent div.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48,48,48);
+    width: 80%;
+    height: 33%;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0,0,0.05);
+    margin-top: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.18);
+    -moz-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.18);
+    box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.18);
+}
